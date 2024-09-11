@@ -37,7 +37,6 @@
     <div class="w3-dropdown-content w3-card-4 w3-bar-block">
       <a href="https://www.instagram.com/arri_footballcoach/" class="w3-bar-item w3-button" target=”_blank”>Instagram</a>
       <a href="#" class="w3-bar-item w3-button">Tiktok</a>
-      <a href="#" class="w3-bar-item w3-button">Link 1</a>
     </div>
   </div>
   <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
@@ -87,26 +86,26 @@
 
 <div class="w3-quarter">
   <img src="https://www.aurumbureau.com/wp-content/uploads/2021/03/Aurum-Speakers-Bureau-Pep-Guardiola.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
-  <h3>Marwa</h3>
+  <h3>Aranyan speler</h3>
   <p>Voetballer ADO 20 19-1</p>
 </div>
 
 <div class="w3-quarter">
   <img src="https://www.aurumbureau.com/wp-content/uploads/2021/03/Aurum-Speakers-Bureau-Pep-Guardiola.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
-  <h3>ION</h3>
+  <h3>Arri trainer</h3>
   <p>Coach ODIN 59 13-1</p>
 </div>
 
 <div class="w3-quarter">
   <img src="https://www.aurumbureau.com/wp-content/uploads/2021/03/Aurum-Speakers-Bureau-Pep-Guardiola.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
-  <h3>marmal</h3>
+  <h3>Arri coach</h3>
   <p>Prive trainer</p>
 </div>
 
 <div class="w3-quarter">
   <img src="https://www.aurumbureau.com/wp-content/uploads/2021/03/Aurum-Speakers-Bureau-Pep-Guardiola.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
-  <h3>Torenam</h3>
-  <p>Billenlikker</p>
+  <h3>Arri fitnesscoach</h3>
+  <p>informatie over je fitheid en eetschema's</p>
 </div>
 
 </div>
@@ -186,12 +185,12 @@ Heb je zwakke punten dat beter kan? Ik help je graag. Trainingen zijn voor alle 
           <p class="w3-xlarge">Eenmalig</p>
         </li>
         <li class="w3-padding-16"><b>Eenmalige training</b></li>
-        <li class="w3-padding-16"><b></b> Training in kleine groep</li>
+        <li class="w3-padding-16"><b></b> Bedoeld om te kijken of je het wat vind</li>
         <li class="w3-padding-16"><b></b> Persoonlijke adviezen</li>
         <li class="w3-padding-16"><b></b> Gezellige trainingen</li>
         <li class="w3-padding-16"><b>Veel</b> Support</li>
         <li class="w3-padding-16">
-          <h2 class="w3-wide"><i class="fa fa-eur"></i> 15</h2>
+          <h2 class="w3-wide"><i class="fa fa-eur"></i> 7.50</h2>
           <span class="w3-opacity">per keer</span>
         </li>
         <li class="w3-theme-l5 w3-padding-24">
@@ -206,12 +205,12 @@ Heb je zwakke punten dat beter kan? Ik help je graag. Trainingen zijn voor alle 
           <p class="w3-xlarge">Basic</p>
         </li>
         <li class="w3-padding-16"><b>wekelijkse training</b></li>
-        <li class="w3-padding-16"><b></b> Training in kleine groep</li>
+        <li class="w3-padding-16"><b></b> 1 op 1 trainingen (tweetallen ook mogelijk)</li>
         <li class="w3-padding-16"><b></b> Persoonlijke adviezen</li>
         <li class="w3-padding-16"><b></b> Gezellige trainingen</li>
         <li class="w3-padding-16"><b>Veel</b> Support</li>
         <li class="w3-padding-16">
-          <h2 class="w3-wide"><i class="fa fa-eur"></i> 40</h2>
+          <h2 class="w3-wide"><i class="fa fa-eur"></i> 50</h2>
           <span class="w3-opacity">per maand</span>
         </li>
         <li class="w3-theme-l5 w3-padding-24">
@@ -226,12 +225,32 @@ Heb je zwakke punten dat beter kan? Ik help je graag. Trainingen zijn voor alle 
           <p class="w3-xlarge">Pro</p>
         </li>
         <li class="w3-padding-16"><b> Alles van basic</b></li>
-        <li class="w3-padding-16"><b></b> Prive training mogelijk</li>
+        <li class="w3-padding-16"><b></b> 1 op 1 trainingen (tweetallen ook mogelijk)</li>
         <li class="w3-padding-16"><b></b> Persoonlijke adviezen</li>
-        <li class="w3-padding-16"><b></b> Gezellige trainingen</li>
+        <li class="w3-padding-16"><b></b> inc fitness/eet schema</li>
         <li class="w3-padding-16"><b>Hoog niveau</b> Persoonlijke support</li>
         <li class="w3-padding-16">
           <h2 class="w3-wide"><i class="fa fa-eur"></i> 60</h2>
+          <span class="w3-opacity">per maand</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Meld je aan</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-row-padding w3-center w3-padding-64" id="prijzen">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">Basic</p>
+        </li>
+        <li class="w3-padding-16"><b>wekelijkse training</b></li>
+        <li class="w3-padding-16"><b></b> training in kleine groep</li>
+        <li class="w3-padding-16"><b></b> Persoonlijke adviezen</li>
+        <li class="w3-padding-16"><b></b> Gezellige trainingen</li>
+        <li class="w3-padding-16"><b>Veel</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-eur"></i> 40</h2>
           <span class="w3-opacity">per maand</span>
         </li>
         <li class="w3-theme-l5 w3-padding-24">
