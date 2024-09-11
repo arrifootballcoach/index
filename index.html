@@ -1,0 +1,334 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Coach Arri</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="myPage">
+
+<!-- Sidebar on click -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Sluiten
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  <a href="#" class="w3-bar-item w3-button">Link 4</a>
+  <a href="#" class="w3-bar-item w3-button">Link 5</a>
+</nav>
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
+  <a href="#werk" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Over mij</a>
+  <a href="#prijzen" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Prijzen</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">Social media <i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="https://www.instagram.com/arri_footballcoach/" class="w3-bar-item w3-button" target=”_blank”>Instagram</a>
+      <a href="#" class="w3-bar-item w3-button">Tiktok</a>
+    </div>
+  </div>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#werk" class="w3-bar-item w3-button">Over mij/trainingen</a>
+    <a href="#prijzen" class="w3-bar-item w3-button">Prijs</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="https://i0.wp.com/thesefootballtimes.co/wp-content/uploads/2016/06/analytics.jpg?w=1800&ssl=1" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">Niet klikken</button>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Nigger.</h4>
+      <h5>Donder op <i class="fa fa-smile-o"></i></h5>
+    </header>
+    <div class="w3-container">
+      <p>extra text</p>
+      <p>nog een functie vinden</p>
+    </div>
+    <footer class="w3-container w3-teal">
+      <p>klik kruisje</p>
+    </footer>
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+<h2>Het Team</h2>
+<p>Maak kennis met het team: De Trainer(s)</p>
+
+<div class="w3-row"><br>
+
+<div class="w3-quarter">
+  <img src="https://www.aurumbureau.com/wp-content/uploads/2021/03/Aurum-Speakers-Bureau-Pep-Guardiola.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Aranyan speler</h3>
+  <p>Voetballer ADO 20 19-1</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="https://www.aurumbureau.com/wp-content/uploads/2021/03/Aurum-Speakers-Bureau-Pep-Guardiola.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Arri trainer</h3>
+  <p>Coach ODIN 59 13-1</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="https://www.aurumbureau.com/wp-content/uploads/2021/03/Aurum-Speakers-Bureau-Pep-Guardiola.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Arri coach</h3>
+  <p>Prive trainer</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="https://www.aurumbureau.com/wp-content/uploads/2021/03/Aurum-Speakers-Bureau-Pep-Guardiola.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Arri fitnesscoach</h3>
+  <p>informatie over je fitheid en eetschema's</p>
+</div>
+
+</div>
+</div>
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="werk">
+
+<div class="w3-quarter">
+<h2>Over Mij</h2>
+<p>Ik ben Aranyan en ik ben 17 jaar. Ik speel al vanaf mijn 4de voetbal. Ik heb ongeveer 12 jaar gespeeld bij Odin 59. 
+Ik speel/speelde ook op een erg hoog niveau. Zo heb ik tegen ajax, excelsior, Almere city, tegen duitste club gespeeld… 
+Ik heb de beste trainers gehad. Trainers die afgevallen waren van az, trainers die divisie trainen etc.
+Nu ben ik overgestapt naar Ado 19-1. Ik ben begonnen met privé trainingen. En ga degene die willen begeleiden. 
+Voor jongens die net begonnen zijn ga ik proberen om je goed te maken en daarna verder. 
+Voor degene die al best wel kunnen voetballen ga ik alles uit je halen, om “hoog niveau “ te laten spelen of gescout te worden. 
+Heb je zwakke punten dat beter kan? Ik help je graag. Trainingen zijn voor alle leeftijden Kortom ik ga bij iedereen je beste Versie van jezelf halen.</p>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="https://contents.mediadecathlon.com/p1793862/k$895b41b5f0bc6adadc415e9f9aa4f68a/1920x0/2736pt1925/5472xcr3420/default.jpg?format=auto" alt="Snow" style="width:100%">
+  <div class="w3-container">
+  <h3>Maandag</h3>
+  <h4>Training</h4>
+  <p>Alleen in de vakantie</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="https://www.nikkel-art.nl/img-preview/aHR0cHM6Ly9hczEuZnRjZG4ubmV0L3YyL2pwZy8wMi8wNi85Ny8xMi8xMDAwX0ZfMjA2OTcxMjYzX1BHYmxMREJrZm1oQ05TSEM2em9DT1FFZjJCd1NzRmI3LmpwZw==?&w=669&h=296&e=none&f=none&r=0" alt="Lights" style="width:100%">
+  <div class="w3-container">
+  <h3>Zaterdag</h3>
+  <h4>Training</h4>
+  <p>Alleen in de vakantie</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="https://repo.allesoversport.nl/cache/image/file_3060_m1641334151_800,400.jpg" alt="Mountains" style="width:100%">
+  <div class="w3-container">
+  <h3>Zondag</h3>
+  <h4>Training</h4>
+  <p>Je traint meestal tussen 1/1,5 uur afhankelijk van wat we gaan trainen.<br> 
+De trainingen vinden plaats op zondagen. (“Tijden worden nog bekend gemaakt”)
+</p>
+  </div>
+  </div>
+</div>
+
+</div>
+
+<!-- Container -->
+<div class="w3-container" style="position:relative">
+  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
+  style="position:absolute;top:-28px;right:24px">+</a>
+</div>
+
+<!-- Pricing Row -->
+<div class="w3-row-padding w3-center w3-padding-64" id="prijzen">
+    <h2>Prijzen</h2>
+    <p>Kies een training die je wilt volgen</p><br>
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">Eenmalig</p>
+        </li>
+        <li class="w3-padding-16"><b>Eenmalige training</b></li>
+        <li class="w3-padding-16"><b></b> Bedoeld om te kijken of je het wat vind</li>
+        <li class="w3-padding-16"><b></b> Persoonlijke adviezen</li>
+        <li class="w3-padding-16"><b></b> Gezellige trainingen</li>
+        <li class="w3-padding-16"><b>Veel</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-eur"></i> 7.50</h2>
+          <span class="w3-opacity">per keer</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Meld je aan</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">Basic</p>
+        </li>
+        <li class="w3-padding-16"><b>wekelijkse training</b></li>
+        <li class="w3-padding-16"><b></b> 1 op 1 trainingen (tweetallen ook mogelijk)</li>
+        <li class="w3-padding-16"><b></b> Persoonlijke adviezen</li>
+        <li class="w3-padding-16"><b></b> Gezellige trainingen</li>
+        <li class="w3-padding-16"><b>Veel</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-eur"></i> 50</h2>
+          <span class="w3-opacity">per maand</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Meld je aan</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">Pro</p>
+        </li>
+        <li class="w3-padding-16"><b> Alles van basic</b></li>
+        <li class="w3-padding-16"><b></b> 1 op 1 trainingen (tweetallen ook mogelijk)</li>
+        <li class="w3-padding-16"><b></b> Persoonlijke adviezen</li>
+        <li class="w3-padding-16"><b></b> inc fitness/eet schema</li>
+        <li class="w3-padding-16"><b>Hoog niveau</b> Persoonlijke support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-eur"></i> 60</h2>
+          <span class="w3-opacity">per maand</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Meld je aan</button>
+        </li>
+      </ul>
+    </div>
+
+<div class="w3-row-padding w3-center w3-padding-64" id="prijzen" style="width: 33.33%; margin: 0 auto;">
+       <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">Basic</p>
+        </li>
+        <li class="w3-padding-16"><b>wekelijkse training</b></li>
+        <li class="w3-padding-16"><b></b> training in kleine groep</li>
+        <li class="w3-padding-16"><b></b> Persoonlijke adviezen</li>
+        <li class="w3-padding-16"><b></b> Gezellige trainingen</li>
+        <li class="w3-padding-16"><b>Veel</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-eur"></i> 40</h2>
+          <span class="w3-opacity">per maand</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Meld je aan</button>
+        </li>
+      </ul>
+    </div>
+</div>
+
+<!-- Contact Container -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Neem contact op</span></div>
+      <h3>Contactgegevens</h3>
+      <p>Eventuele vragen kunt u hier rechts stellen</p>
+      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Heemskerk, Nederland</p>
+      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +31 600000000</p>
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  marmal@gmail.com</p>
+    </div>
+    <div class="w3-col m7">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="https://formsubmit.co/byan1293@gmail.com" method="POST" target="_blank">
+      <div class="w3-section">      
+        <label>Naam</label>
+        <input class="w3-input" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">      
+        <label>Email</label>
+        <input class="w3-input" type="text" name="Email" required>
+      </div>
+            <div class="w3-section">      
+        <label>Telefoon nummer</label>
+        <input class="w3-input" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">      
+        <label>Bericht</label>
+        <input class="w3-input" type="text" name="Bericht" required>
+      </div>  
+      <button type="submit" class="w3-button w3-right w3-theme">Aanmelden</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Image of location/map -->
+<img src="https://img.freepik.com/premium-photo/close-up-van-voetbal-of-voetballer-benen-hardlopen-en-schoppen-een-bal-tijdens-het-trainen-op-het-stadion-veld-voetbal-kampioenschap-brede-banner-concept_342644-3308.jpg" class="w3-image w3-greyscale-min" style="width:100%;">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Follow Us</h4>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Tiktok"><i class="fa fa-tiktok"></i></a>
+  <a class="w3-button w3-large w3-teal" href="https://www.instagram.com/arri_footballcoach/" title="Google +" target=”_blank”><i class="fa fa-instagram"></i></a>
+  <p>Made my <a href="https://www.instagram.com/3333ak/" target="_blank">Aksayan</a></p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Terug naar boven</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
